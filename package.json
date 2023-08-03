@@ -1,0 +1,24 @@
+{
+  "name": "simple_exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app/index.js",
+    "prime": "node ./app/math/exercise2.js",
+    "factorial": "node ./app/math/exercise3.js",
+    "palindrome": "node ./app/string/exercise4.js",
+    "table": "node ./app/math/exercise5.js",
+    "vowel": "node ./app/string/exercise6.js",
+    "average": "node ./app/math/exercise7.js",
+    "interest": "node ./app/math/exercise8.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
